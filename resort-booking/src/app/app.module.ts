@@ -10,6 +10,7 @@ import { ContactComponent } from './header/right-header/contact/contact.componen
 import { PhoneNumberComponent } from './header/right-header/contact/phone-number/phone-number.component';
 import { EmailComponent } from './header/right-header/contact/email/email.component';
 import { MatIconModule } from '@angular/material/icon';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MatIconModule } from '@angular/material/icon';
     RightHeaderComponent,
     PhoneNumberComponent,
     EmailComponent,
-    ContactComponent
+    ContactComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
