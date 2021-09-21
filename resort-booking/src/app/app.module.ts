@@ -11,6 +11,7 @@ import { PhoneNumberComponent } from './header/right-header/contact/phone-number
 import { EmailComponent } from './header/right-header/contact/email/email.component';
 import { MatIconModule } from '@angular/material/icon';
 import { BodyComponent } from './body/body.component';
+import { NavigationBarComponent } from './body/navigation-bar/navigation-bar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BodyComponent } from './body/body.component';
     PhoneNumberComponent,
     EmailComponent,
     ContactComponent,
-    BodyComponent
+    BodyComponent,
+    NavigationBarComponent
   ],
   imports: [
     BrowserModule,
