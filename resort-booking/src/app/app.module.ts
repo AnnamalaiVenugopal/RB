@@ -12,6 +12,12 @@ import { EmailComponent } from './header/right-header/contact/email/email.compon
 import { MatIconModule } from '@angular/material/icon';
 import { BodyComponent } from './body/body.component';
 import { NavigationBarComponent } from './body/navigation-bar/navigation-bar.component';
+import { ImageSliderComponent } from './body/image-slider/image-slider.component';
+import { HomeComponent } from './body/home/home.component';
+import { AboutComponent } from './body/about/about.component';
+import { GalleryComponent } from './body/gallery/gallery.component';
+import { FeedbackComponent } from './body/feedback/feedback.component';
+import { BookingComponent } from './body/booking/booking.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +29,13 @@ import { NavigationBarComponent } from './body/navigation-bar/navigation-bar.com
     EmailComponent,
     ContactComponent,
     BodyComponent,
-    NavigationBarComponent
+    NavigationBarComponent,
+    ImageSliderComponent,
+    HomeComponent,
+    AboutComponent,
+    GalleryComponent,
+    FeedbackComponent,
+    BookingComponent
   ],
   imports: [
     BrowserModule,
