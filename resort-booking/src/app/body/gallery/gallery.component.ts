@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryComponent implements OnInit {
 
-  constructor() { }
+  public image = {
+    url:""
+  };
+  public counter = 1;
+  constructor() {  
+      this.image.url = "assets/images/gallery/"+1+".jpeg";
+  }
 
   ngOnInit(): void {
+    setInterval(() => {
+      console.log("Changing the image")
+      this.counter++;
+      if(this.counter > 20){
+        this.counter = 1;
+      }
+      this.image.url = "assets/images/gallery/"+this.counter+".jpeg";
+    }, 5000);
   }
 
 }
