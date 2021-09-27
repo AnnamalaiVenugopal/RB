@@ -18,6 +18,7 @@ import { AboutComponent } from './body/about/about.component';
 import { GalleryComponent } from './body/gallery/gallery.component';
 import { FeedbackComponent } from './body/feedback/feedback.component';
 import { BookingComponent } from './body/booking/booking.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,7 @@ import { BookingComponent } from './body/booking/booking.component';
     AppRoutingModule,
     MatIconModule    
   ],
-  providers: [],
+  providers:[{ provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
