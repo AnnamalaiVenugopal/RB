@@ -3,7 +3,6 @@
     "public": "dist/resort-booking",
     "ignore": [
       "firebase.json",
-      "**/.*",
       "**/node_modules/**"
     ],
     "rewrites": [

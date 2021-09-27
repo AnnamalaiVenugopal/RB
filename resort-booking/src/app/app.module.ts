@@ -19,6 +19,8 @@ import { GalleryComponent } from './body/gallery/gallery.component';
 import { FeedbackComponent } from './body/feedback/feedback.component';
 import { BookingComponent } from './body/booking/booking.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { PageUnderConstructionComponent } from './body/page-under-construction/page-under-construction.component';
+import { LoaderComponent } from './body/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     AboutComponent,
     GalleryComponent,
     FeedbackComponent,
-    BookingComponent
+    BookingComponent,
+    PageUnderConstructionComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,
