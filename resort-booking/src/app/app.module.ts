@@ -43,7 +43,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     AppRoutingModule,
     MatIconModule    
   ],
-  providers:[{ provide: LocationStrategy, useClass: HashLocationStrategy}],
+  // providers:[{ provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers:[],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
