@@ -1,7 +1,14 @@
 <div class="container">
+    <br/>
     <div class="row">
         <div class="col">
-            <app-page-under-construction></app-page-under-construction>
+            <app-location [location]="location"></app-location>
+        </div>
+    </div>
+    <div class="row" *ngFor = "let tp of touristplaces">
+        <div class="col">
+            <app-tourist-places [place]="tp"></app-tourist-places>
+            <br/>
         </div>
     </div>
 </div>

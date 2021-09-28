@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import location from '../../../assets/json/location.json'
+import touristplaces from '../../../assets/json/touristplaces.json'
 
 @Component({
   selector: 'app-about',
@@ -7,7 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  public location : {};
+  public touristplaces : [{}];
+  constructor() { 
+    this.location = location;
+    this.touristplaces = touristplaces;
+  }
 
   ngOnInit(): void {
   }

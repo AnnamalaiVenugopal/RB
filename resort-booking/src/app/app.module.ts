@@ -21,6 +21,8 @@ import { BookingComponent } from './body/booking/booking.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { PageUnderConstructionComponent } from './body/page-under-construction/page-under-construction.component';
 import { LoaderComponent } from './body/loader/loader.component';
+import { LocationComponent } from './body/about/location/location.component';
+import { TouristPlacesComponent } from './body/about/tourist-places/tourist-places.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { LoaderComponent } from './body/loader/loader.component';
     FeedbackComponent,
     BookingComponent,
     PageUnderConstructionComponent,
-    LoaderComponent
+    LoaderComponent,
+    LocationComponent,
+    TouristPlacesComponent
   ],
   imports: [
     BrowserModule,

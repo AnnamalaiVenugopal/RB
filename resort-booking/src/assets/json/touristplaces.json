@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "place":"Kutladampatti Falls",
+        "image":"assets/images/kutladampatti_falls.jfif",
+        "about":"Kutladampatti Falls is a waterfall located in the village of Kutladampatti near Vadipatti. The waterfall is in a reserve forest managed by the Tamil Nadu Forest Department. The water falls from a height of about 27 metres (89 ft). The number of tourist visits peaks from September to February. Swami Ramanagiri Ashram is another place of attraction, located in the downhill. The Ashram is surrounded by mango farms and is a home for peacocks. The ashram also has various shrines and is a very good place for meditation and spiritual relief."
+    },
+    {
+        "id":2,
+        "place":"Vellimalai Sivan Temple",
+        "image":"assets/images/vellimalai_sivan_temple.jpg",
+        "about":"Vellimalai Sivan Temple, situated in sirumalai where one can find Sivan deity on top of the hill which was believed to be worshipped by the saint Agasthiar. One could take a short trek of about an hour to reach the top of the hill, where you could find a small sivan temple. If you want to attend pooja then you should visit the temple on Sundays at 12 noon. Only on Sundays pooja will be performed. The trek in not advisable for elder persons because one cannot get water, food etc & they will find difficult to climb up hill."
+    },
+    {
+        "id":3,
+        "place":"Sirumalai Forests",
+        "image":"assets/images/sirumalai_forests.jpg",
+        "about":"Sirumalai is home to thousands of plant species and wild animals such as Indian Gaur, wild boar, sambar deer, wild dogs, giant squirels and monkeys.Sirumalai hills nurtures a wide range of medicinal herbs, ornamental shrubs and huge trees. Some of the native species found here are Thanaku, Vilwam, tamarind trees, neermarudhu and vaagai. One of the plant species found in abundance in Sirumalai is Lantana Camara, a small perennial shrub."
+    }
+]
