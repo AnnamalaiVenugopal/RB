@@ -23,6 +23,7 @@ import { PageUnderConstructionComponent } from './body/page-under-construction/p
 import { LoaderComponent } from './body/loader/loader.component';
 import { LocationComponent } from './body/about/location/location.component';
 import { TouristPlacesComponent } from './body/about/tourist-places/tourist-places.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { TouristPlacesComponent } from './body/about/tourist-places/tourist-plac
     PageUnderConstructionComponent,
     LoaderComponent,
     LocationComponent,
-    TouristPlacesComponent
+    TouristPlacesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
