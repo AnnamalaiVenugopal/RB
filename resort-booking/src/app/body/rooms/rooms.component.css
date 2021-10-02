@@ -1,0 +1,41 @@
+.container-fluid{
+    padding: 1%;
+    border-radius: 5%;
+}
+.redRoom{
+    background-color: rgb(230, 24, 103);
+    color: white;
+}
+
+.eliteRoom{
+    background-color: gray;
+    color: white;
+}
+
+.pearlRoom{
+    background-color: rgba(31, 47, 192, 0.801);
+    color: white;
+}
+
+
+.redRoomButton{
+    color: rgb(230, 24, 103);
+    background-color: white;
+    border-color: rgb(230, 24, 103);
+}
+
+.eliteRoomButton{
+    color: gray;
+    background-color: white;
+    border-color: gray;
+}
+
+.pearlRoomButton{
+    color:rgba(31, 47, 192, 0.801);
+    background-color: white;
+    border-color: rgba(31, 47, 192, 0.801);
+}
+
+.buttons{
+    text-align: right;
+}

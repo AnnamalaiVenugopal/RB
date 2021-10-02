@@ -1,0 +1,29 @@
+<div class="container-fluid" [ngClass] = 'room.roomType == "Red Room"? "redRoom": (room.roomType == "Elite Room"? "eliteRoom":"pearlRoom")'>
+    <div class="row" style="text-align: center;">
+        <div class="col">
+            <h2>{{ room.roomType }}</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>{{ room.description }}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>Maximum Occupancy : {{ room.maxOccupancy }}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <p><b>Cost : {{ room.cost }}</b></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col"   class="buttons">
+            <button class='btn btn-primary' [ngClass] = 'room.roomType == "Red Room"? "redRoomButton": (room.roomType == "Elite Room"? "eliteRoomButton":"pearlRoomButton")' (click)="bookRooms()">Book</button>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>

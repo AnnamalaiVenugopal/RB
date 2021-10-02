@@ -1,0 +1,34 @@
+<div class="container-fluid" [ngClass] = 'cottage.cottageType == "Royal Cottage"? "royalCottage": "bwCottage"'>
+    <div class="row" style="text-align: center;">
+        <div class="col">
+            <h2>{{ cottage.cottageType }}</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>{{ cottage.description }}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>Amenities : {{ cottage.amenities }}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>Maximum Occupancy : {{ cottage.maxOccupancy }}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <p><b>Cost : {{ cottage.cost }}</b></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col"   class="buttons">
+            <button class='btn btn-primary' [ngClass] = 'cottage.cottageType == "Royal Cottage"? "royalCottageButton": "bwCottageButton"' (click)="bookCottages()">Book</button>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>

@@ -1,0 +1,31 @@
+.container-fluid{
+    padding: 1%;
+    border-radius: 5%;
+}
+.royalCottage{
+    background-color: rgb(31, 31, 233);
+    color: white;
+}
+
+.bwCottage{
+    background-color: black;
+    color: white;
+}
+
+
+
+.royalCottageButton{
+    color: rgb(31, 31, 233);
+    background-color: white;
+    border-color: rgb(31, 31, 233);
+}
+
+.bwCottageButton{
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+.buttons{
+    text-align: right;
+}

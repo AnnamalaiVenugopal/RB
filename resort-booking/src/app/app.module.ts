@@ -24,6 +24,9 @@ import { LoaderComponent } from './body/loader/loader.component';
 import { LocationComponent } from './body/about/location/location.component';
 import { TouristPlacesComponent } from './body/about/tourist-places/tourist-places.component';
 import { FooterComponent } from './footer/footer.component';
+import { CategoriesComponent } from './body/categories/categories.component';
+import { RoomsComponent } from './body/rooms/rooms.component';
+import { CottagesComponent } from './body/cottages/cottages.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +49,10 @@ import { FooterComponent } from './footer/footer.component';
     LoaderComponent,
     LocationComponent,
     TouristPlacesComponent,
-    FooterComponent
+    FooterComponent,
+    CategoriesComponent,
+    RoomsComponent,
+    CottagesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,36 @@
+<br/>
+<div class="container-fluid" style="color: rgba(31, 47, 192, 0.801);">
+    <div class="row" style="text-align: center;">
+        <div class="col">
+            <h1>ROOMS</h1>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" *ngFor="let room of rooms">
+    <div class="row">
+        <div class="col">
+            <app-rooms [room] = "room"></app-rooms>
+        </div>
+    </div>
+</div>
+
+<br/>
+<div class="container-fluid" style="color: rgba(31, 47, 192, 0.801);">
+    <div class="row" style="text-align: center;">
+        <div class="col">
+            <h1>COTTAGES</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>{{ cottagesDescription }}</p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" *ngFor="let cottage of cottages">
+    <div class="row">
+        <div class="col">
+            <app-cottages [cottage] = "cottage"></app-cottages>
+        </div>
+    </div>
+</div>
