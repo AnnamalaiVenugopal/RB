@@ -1,0 +1,27 @@
+[
+    {
+        "value":"Home",
+        "link":"home",
+        "active":""
+    },
+    {
+        "value":"About",
+        "link":"about",
+        "active":""
+    },
+    {
+        "value":"Categories",
+        "link":"categories",
+        "active":""
+    },
+    {
+        "value":"Gallery",
+        "link":"gallery",
+        "active":""
+    },
+    {
+        "value":"Feedback",
+        "link":"feedback",
+        "active":""
+    }
+]

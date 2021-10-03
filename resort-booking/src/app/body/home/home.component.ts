@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import activities from '../../../assets/json/activities.json'
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public activities: any;
+  constructor() { 
+    this.activities = activities;
+  }
 
   ngOnInit(): void {
   }

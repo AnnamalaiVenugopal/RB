@@ -1,4 +1,18 @@
-.nav-link:hover{
-    background-color: blue;
+.link:hover{
+    background-color: rgba(31, 47, 192, 0.801);
     color: white;
+    cursor: pointer;
+}
+.active{
+    background-color: rgba(31, 47, 192, 0.801);
+    color: white !important;
+    border-radius: 5%;
+}
+
+.link{
+    display: block;
+    padding: .5rem 1rem;
+    color: rgba(31, 47, 192, 0.801);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }

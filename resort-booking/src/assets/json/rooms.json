@@ -3,18 +3,18 @@
         "roomType":"Pearl Room",
         "description":"Need a peaceful weekend and enjoy an exciting climate in a jungle in an economic way? We have Pearl rooms which are most suitable for your needs.",
         "maxOccupancy":"2 People",
-        "cost":"2000 per day"
+        "cost":2000
     },
     {
         "roomType":"Elite Room",
-        "description":"Planning for a take some time off from the routine as a family? We have the most elite room in and around the area. You can have pleasant stay as a family which helps in increasing the family bonding. As Dom Toretto says <b>FAMILY COMES FIRST<\b>",
+        "description":"Planning for a take some time off from the routine as a family? We have the most elite room in and around the area. You can have pleasant stay as a family which helps in increasing the family bonding. As Dom Toretto says \"FAMILY COMES FIRST\"",
         "maxOccupancy":"Family with 2 children(Max) or 3 adults",
-        "cost":"3500 per day"
+        "cost":3500
     },
     {
         "roomType":"Red Room",
         "description":"Newly married? Need a romantic destination? Forget about Shimla (or) Ooty, our red room is at your service. We can ensure that you have 100% privacy. We have private pools to enjoy the stay with us.",
         "maxOccupancy":"Ideal for Honeymoon couples (or) Family with 2 children(Max)",
-        "cost":"6000 per day"
+        "cost":6000
     }
 ]

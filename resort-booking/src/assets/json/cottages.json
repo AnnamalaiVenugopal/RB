@@ -6,14 +6,14 @@
             "description":"Ever dream of having a Royality in life? We can assure a Royal feel while staying here.",
             "amenities":"A hall with two bedrooms",
             "maxOccupancy":"4 to 6 People",
-            "cost":"4000 per day"
+            "cost":4000
         },
         {
             "cottageType":"Black & White Cottage",
             "description":"Who can dislike a Salt and Pepper look? What if we got it in our room? We have black and white cottage which is absolutely suitable for a photo session.",
             "amenities":"A hall with two bedrooms",
             "maxOccupancy":"6 to 8 People (or) Two Families",
-            "cost":"5000 per day"
+            "cost":5000
         }
     ]
 }

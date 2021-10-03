@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cottages',
@@ -8,13 +9,17 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CottagesComponent implements OnInit {
 
   @Input() cottage: any;
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit(): void {
   }
 
 
-  bookCottages(){
-    console.log(this.cottage);
+  bookCottages(cottage: any){
+    console.log(cottage);
+    sessionStorage.setItem("type","cottage");
+    sessionStorage.setItem("roomType", cottage.cottageType);
+    sessionStorage.setItem("cost",cottage.cost);
+    this.router.navigate(['/booking']);
   }
 }

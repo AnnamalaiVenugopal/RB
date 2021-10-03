@@ -1,0 +1,32 @@
+[
+    {
+        "activity":"Jeep Safari",
+        "description":"Are you an Explorer and a Nature Adventurer?\n Explore the diversity of the Sirumalai hills and forests with the Jeep Safari. Experience various types of flora and fauna. A rich animal life including threatened animals such as the slender loris, gaur, sambar deer, sloth bear, Asian palm civet, Indian hare, jungle cat and Indian pangolin are to be seen in the wild. Birds such as Indian peafowl, Asian koel, Indian grey hornbill and even the endemic blue-winged parakeet are found in these forests. Threatened reptiles such as the python molurus, Indian star tortoise, and venomous snakes such as Indian cobra, Russell's viper, common krait and the endemic bamboo pit viper and the little-known striped coral snake are found here. Lizards such as the Bengal monitor, the Indian chameleon, the flying lizard, common green forest lizard, lesser snake-eyed lacerta and Cnemaspis geckoes are to be seen here.",
+        "img":"assets/images/safari.jpg"
+    },
+    {
+        "activity":"Open Movie Night",
+        "description":"Experience our dolby in the middle of the jungle. We have open theatre in which you can enjoy your favourite movie while enjoying the climate.",
+        "img":"assets/images/Open Theatre/open-theatre.jpeg"
+    },
+    {
+        "activity":"Camp Fire",
+        "description":"Let out the beast inside you in front of the fire. Be it a melodious music or a life talk, destroy all the negative thoughts in the fire and let your positive vibe spread out.",
+        "img":"assets/images/CampFire.jpg"
+    },
+    {
+        "activity":"Trekking",
+        "description":"What happens when majestic meets the mighty? The Majestic you can enjoy the mighty western ghats. While trekking you can enjoy and get ashtonished with her majestic and astounding beauty of Western ghats.Trees such as terminalia, shorea, and magnolia champaca are dominant here . Other rare plants such as lianas and orchids also occur in the higher elevation evergreen tracts. Coffee estates form a major portion of the present-day landscape. Experience the flora and fauna upclose. Became a nomad.  Best suitable for nature lover.",
+        "img":"assets/images/Trekking.jpg"
+    },
+    {
+        "activity":"Banana Plantain Visit",
+        "description":"Are you a Banana Lover? Want to know how banana are produced and exported? Tamilnadu is the largest producer of the Banana. Sirumalai has a major part in that. Much of the Sirumalai is covered by deciduous forests – the lower slopes by dry deciduous and the higher slopes and riverine valleys by moist and wet deciduous forests. This area is famous for a banana species (malai vazhai). Let the younger generation know about how the banana are produced and experience the rich and healthy banana.",
+        "img":"assets/images/banana.jpg"
+    },
+    {
+        "activity":"Kids Play Area",
+        "description":"Naughty Naughty Kids? Playful Kids? Calm Kids? Doesn't matter. Every Kid loves playing. We provide your kids an unforgettable experience while staying. Kids will never leave our play area.",
+        "img":"assets/images/kidsplay.jpg"
+    }
+]

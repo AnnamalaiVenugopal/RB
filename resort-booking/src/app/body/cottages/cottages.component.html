@@ -21,12 +21,12 @@
     </div>
     <div class="row">
         <div class="col-sm-4">
-            <p><b>Cost : {{ cottage.cost }}</b></p>
+            <p><b>Cost : {{ cottage.cost }} per day</b></p>
         </div>
     </div>
     <div class="row">
         <div class="col"   class="buttons">
-            <button class='btn btn-primary' [ngClass] = 'cottage.cottageType == "Royal Cottage"? "royalCottageButton": "bwCottageButton"' (click)="bookCottages()">Book</button>
+            <button class='btn btn-primary' [ngClass] = 'cottage.cottageType == "Royal Cottage"? "royalCottageButton": "bwCottageButton"' (click)="bookCottages(cottage)">Book</button>
         </div>
     </div>
 </div>

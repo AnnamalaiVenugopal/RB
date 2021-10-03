@@ -2,11 +2,8 @@
     color: navy;
     font-weight: bolder;
 }
-.col{
-    text-align: center;
-}
 
-.container{
+.loaderPage{
    text-align: center;
    margin: auto;
 }
